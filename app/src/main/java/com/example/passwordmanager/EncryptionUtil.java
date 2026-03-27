@@ -7,7 +7,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class EncryptionUtil {
 
-    // Note: Use a 16-character string for AES-128
+    
     private static final String KEY = "1234567812345678"; 
     private static final String ALGORITHM = "AES/ECB/PKCS5Padding";
 
