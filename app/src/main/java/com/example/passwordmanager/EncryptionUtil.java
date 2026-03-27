@@ -34,7 +34,7 @@ public class EncryptionUtil {
             byte[] decryptedBytes = cipher.doFinal(decodedBytes);
             return new String(decryptedBytes);
         } catch (Exception e) {
-            // Return raw data if it's not encrypted yet (for old items)
+           
             return data;
         }
     }
